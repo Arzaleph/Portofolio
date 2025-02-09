@@ -20,8 +20,9 @@ body {
 
 header {
     background: linear-gradient(to bottom, #4a90e2, #50b3a2);
-    color: #FFD580;
-    padding: 1rem 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
 
 nav .menu {
@@ -76,11 +77,11 @@ h1, h2 {
 }
 
 footer {
-    bbackground: linear-gradient(to top, #4a90e2, #50b3a2);
-    color: #FFD580;
+    background: linear-gradient(to top, #50b3a2, #4a90e2);
+    padding: 20px;
+    color: white;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: auto; /* Pushes the footer to the bottom */
+    margin-top: auto;
 }
 
 footer p {

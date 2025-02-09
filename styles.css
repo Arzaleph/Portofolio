@@ -36,7 +36,7 @@ nav .menu {
 
 nav .menu li a {
     text-decoration: none;
-    color: white;
+    color: white; /* Ubah warna teks menjadi putih */
     font-weight: bold;
     transition: color 0.3s;
 }

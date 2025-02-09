@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, #4a90e2, #50b3a2);
+    background: linear-gradient(to bottom, #cfa655, #FFF7E7);
     padding: 20px;
     color: white;
     text-align: center;
@@ -36,13 +36,13 @@ nav .menu {
 
 nav .menu li a {
     text-decoration: none;
-    color: #4B3A30; /* Brown text */
+    color: white
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav .menu li a:hover {
-    color: #AA6F39; /* Darker brown */
+    color: #8a8a8a;
 }
 
 main {
@@ -55,11 +55,11 @@ main {
 
 section {
     margin-bottom: 3rem;
-    text-align: center; /* Center text in section */
+    text-align: center;
 }
 
 h1, h2 {
-    color: #AA6F39; /* Darker brown */
+    color: #AA6F39; 
 }
 
 .project-list {
@@ -69,15 +69,15 @@ h1, h2 {
 }
 
 .project {
-    background-color: #FFF0D6; /* Light cream */
-    border: 1px solid #FFD580; /* Light yellow border */
+    background-color: #FFF0D6; 
+    border: 1px solid #FFD580;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background: linear-gradient(to top, #50b3a2, #4a90e2);
+    background: linear-gradient(to top, #FFF7E7, #cfa655);
     padding: 20px;
     color: white;
     text-align: center;

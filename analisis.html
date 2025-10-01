@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analisis Diri - Arza Restu Arjuna</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-[#2C3E50] text-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-[#2C3E50] shadow-md">
+    <nav class="container mx-auto flex justify-between items-center px-6 py-4 max-w-5xl relative">
+      <!-- Nama -->
+      <h1 class="text-xl font-bold text-white mx-auto">Arza Restu Arjuna</h1>
+      <!-- Menu -->
+      <ul class="flex space-x-6 absolute right-6">
+        <li><a href="index.html" class="hover:text-[#AEDFF7]">Beranda</a></li>
+        <li><a href="analisis.html" class="hover:text-[#AEDFF7]">Analisis</a></li>
+        <li><a href="projects.html" class="hover:text-[#AEDFF7]">Proyek</a></li>
+        <li><a href="contact.html" class="hover:text-[#AEDFF7]">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow flex items-center justify-center">
+    <div class="max-w-6xl mx-auto px-6 py-12 space-y-10">
+      
+      <!-- Grid SWOT & Porter -->
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <!-- SWOT -->
+        <div class="bg-[#2C3E50] rounded-xl shadow-md p-6 text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-xl">
+          <h2 class="text-2xl font-bold mb-4 text-[#AEDFF7]">SWOT Analysis</h2>
+          <p><strong>Strengths:</strong> Menguasai dasar Sistem Komputer, RPL, TI; terbiasa mencari topik riset via AI & search engine; aktif organisasi; cepat beradaptasi dengan teknologi baru.</p>
+          <p class="mt-2"><strong>Weaknesses:</strong> Pengalaman praktis industri terbatas; penguasaan tools/framework belum merata; sulit menjaga keseimbangan akademik & organisasi; kurang pengalaman publikasi ilmiah.</p>
+          <p class="mt-2"><strong>Opportunities:</strong> Banyak topik riset tren (AI, IoT, Big Data, Cyber Security, Cloud); akses ke jurnal & seminar; KP di perusahaan teknologi; dukungan dosen & kampus.</p>
+          <p class="mt-2"><strong>Threats:</strong> Persaingan ketat mahasiswa lain dan AI; perkembangan teknologi cepat; keterbatasan data/perangkat; waktu terbatas antara KP & skripsi.</p>
+        </div>
+
+        <!-- Porter -->
+        <div class="bg-[#2C3E50] rounded-xl shadow-md p-6 text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-xl">
+          <h2 class="text-2xl font-bold mb-4 text-[#AEDFF7]">Porter’s Five Forces</h2>
+          <p><strong>Persaingan Industri:</strong> Mahasiswa lain bersaing memilih topik tren, butuh inovasi berbeda.</p>
+          <p class="mt-2"><strong>Ancaman Pendatang Baru:</strong> Mahasiswa baru tiap tahun mempersempit kebaruan penelitian.</p>
+          <p class="mt-2"><strong>Ancaman Produk Substitusi:</strong> Topik umum tergeser topik baru seperti AI, IoT, Cyber Security, Cloud.</p>
+          <p class="mt-2"><strong>Kekuatan Tawar Pemasok:</strong> Dosen, perusahaan KP, jurnal, penyedia data sangat menentukan kualitas penelitian.</p>
+          <p class="mt-2"><strong>Kekuatan Tawar Pembeli:</strong> Kampus, industri, masyarakat; topik sesuai kebutuhan nyata lebih dihargai.</p>
+        </div>
+
+      </div>
+
+      <!-- Grid tambahan -->
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <!-- Pendatar Dunia -->
+        <div class="bg-[#2C3E50] rounded-xl shadow-md p-6 text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-xl">
+          <h2 class="text-xl font-semibold text-[#AEDFF7] mb-3">Kekuatan Pendatar Dunia</h2>
+          <p><strong>The Steroids:</strong> Perkembangan teknologi digital, internet, serta inovasi seperti Artificial Intelligence (AI), Cloud Computing, Internet of Things (IoT), Blockchain, dan Big Data menjadi pendorong utama percepatan cara kita bekerja, belajar, serta berkolaborasi dalam skala global.</p>
+        </div>
+
+        <!-- Kompetensi Inti -->
+        <div class="bg-[#2C3E50] rounded-xl shadow-md p-6 text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-xl">
+          <h2 class="text-xl font-semibold text-[#AEDFF7] mb-3">Kompetensi Inti</h2>
+          <p><strong>TI:</strong> Penguasaan teknologi informasi sebagai landasan untuk menyelesaikan masalah, mengembangkan sistem, dan mendukung pengambilan keputusan. Kompetensi ini mencakup pemrograman, pengelolaan data, jaringan komputer, enterprise architecture, keamanan informasi, serta kemampuan adaptasi terhadap perkembangan teknologi terbaru sesuai kebutuhan industri dan akademik.</p>
+        </div>
+
+        <!-- Knowledge Areas -->
+        <div class="bg-[#2C3E50] rounded-xl shadow-md p-6 text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-xl">
+            <h2 class="text-xl font-semibold text-[#AEDFF7] mb-3">Knowledge Areas (SWEBOK)</h2>
+            <p>
+              SWEBOK (Software Engineering Body of Knowledge) mencakup berbagai area pengetahuan inti dalam rekayasa perangkat lunak. 
+              Beberapa area penting yang relevan adalah:
+            </p>
+            <ul class="list-disc pl-5 mt-2 space-y-2 text-gray-200">
+              <li><strong>Software Design:</strong> fokus pada perancangan arsitektur, komponen, dan antarmuka sistem. Dalam konteks cloud, mencakup arsitektur seperti microservices, serverless, atau containerization, dengan perhatian pada distribusi komponen serta integrasi dan interoperabilitas.</li>
+              <li><strong>Software Construction:</strong> berkaitan dengan pembuatan kode, pengujian unit, dan integrasi. Termasuk penulisan kode untuk aplikasi berbasis cloud, penyiapan lingkungan pengembangan, serta pemanfaatan tools dan platform cloud.</li>
+              <li><strong>Software Quality:</strong> membahas cara menjamin kualitas perangkat lunak, mencakup fungsionalitas, keandalan, dan efisiensi. Dalam sistem cloud, kualitas dapat diukur dari kinerja, keamanan data, serta ketahanan sistem.</li>
+            </ul>
+          </div>
+
+        <!-- Open Source Philosophy -->
+        <div class="bg-[#2C3E50] rounded-xl shadow-md p-6 text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-xl">
+          <h2 class="text-xl font-semibold text-[#AEDFF7] mb-3">Filosofi Open Source</h2>
+          <p>Meyakini kekuatan kolaborasi dan transparansi untuk membangun komunitas, berbagi pengetahuan, dan menciptakan inovasi bersama. Prinsip open source mendorong kerja sama, akses terbuka terhadap kode, serta kebebasan berkontribusi dalam pengembangan teknologi.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#2C3E50] text-[#F0F4F8] text-xs text-center py-2">
+    &copy; 2025 Arza Restu Arjuna • Universitas Lampung
+  </footer>
+
+</body>
+</html>

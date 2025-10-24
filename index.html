@@ -4,42 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Laman Pribadi - Arza Restu Arjuna</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="flex flex-col min-h-screen bg-[#2C3E50] text-gray-100 font-sans">
+<body>
 
-  <header class="bg-[#2C3E50] shadow-md">
-    <nav class="container mx-auto flex justify-between items-center px-6 py-4 max-w-5xl relative">
-      <h1 class="text-xl font-bold text-white mx-auto">Arza Restu Arjuna</h1>
-      <ul class="flex space-x-6 absolute right-6">
-        <li><a href="index.html" class="hover:text-[#AEDFF7]">Beranda</a></li>
-        <li><a href="analisis.html" class="hover:text-[#AEDFF7]">Analisis</a></li>
-        <li><a href="projects.html" class="hover:text-[#AEDFF7]">Proyek</a></li>
-        <li><a href="contact.html" class="hover:text-[#AEDFF7]">Kontak</a></li>
+  <header class="header">
+    <nav class="container nav">
+      <h1 class="logo">Arza Restu Arjuna</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="analisis.html">Analisis</a></li>
+        <li><a href="projects.html">Proyek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="flex-grow flex items-center justify-center">
-    <div class="max-w-4xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10 
-                bg-[#2C3E50] rounded-xl shadow-md transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-xl">
+  <main class="flex-grow flex-center">
+    <div class="main-content-wrapper profile-card panel">
 
-      <div class="flex-shrink-0">
+      <div class="profile-img-wrapper">
         <img src="assets/profile.jpg" alt="Foto Arza Restu Arjuna" 
-             class="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-lg border-4 border-[#34495E] object-cover">
+             class="profile-img">
       </div>
 
       <div>
-        <h2 class="text-3xl font-bold mb-4 text-[#AEDFF7] text-center md:text-left">Halo, saya Arza 👋</h2>
-        <p class="text-gray-200 leading-relaxed text-center md:text-justify">
+        <h2 class="profile-title">Halo, saya Arza 👋</h2>
+        <p class="profile-text">
           Saya mahasiswa Teknik Informatika Universitas Lampung dengan minat pada Sistem Komputer, 
           Rekayasa Perangkat Lunak, dan Teknologi Informasi. Aktif di organisasi kampus serta terbiasa 
           mengeksplorasi tren teknologi terbaru seperti AI, IoT, dan Cloud Computing. Website ini 
           adalah portofolio pribadi sekaligus kumpulan materi kuliah Kapita Selekta hingga topik 
           Open Source Philosophy.
         </p>
-        <div class="mt-6 flex justify-center md:justify-start">
-          <a href="analisis.html" class="px-5 py-2 bg-[#AEDFF7] hover:bg-[#81C4D8] rounded-lg text-[#2C3E50] font-medium shadow-md transition">
+        <div class="profile-button-group">
+          <a href="analisis.html" class="btn-primary">
             Lihat Analisis Saya
           </a>
         </div>
@@ -47,7 +46,7 @@
     </div>
   </main>
 
-  <footer class="bg-[#2C3E50] text-[#F0F4F8] text-xs text-center py-2">
+  <footer class="footer">
     &copy; 2025 Arza Restu Arjuna • Universitas Lampung
   </footer>
 

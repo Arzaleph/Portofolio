@@ -4,50 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyek - Arza Restu Arjuna</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="flex flex-col min-h-screen bg-[#2C3E50] text-gray-100 font-sans">
+<body>
 
-  <header class="bg-[#2C3E50] shadow-md">
-    <nav class="container mx-auto flex justify-between items-center px-6 py-4 max-w-5xl relative">
-      <h1 class="text-xl font-bold text-white mx-auto">Arza Restu Arjuna</h1>
+  <header class="header">
+    <nav class="container nav">
+      <h1 class="logo">Arza Restu Arjuna</h1>
 
-      <ul class="flex space-x-6 absolute right-6">
-        <li><a href="index.html" class="hover:text-[#AEDFF7]">Beranda</a></li>
-        <li><a href="analisis.html" class="hover:text-[#AEDFF7]">Analisis</a></li>
-        <li><a href="projects.html" class="hover:text-[#AEDFF7]">Proyek</a></li>
-        <li><a href="contact.html" class="hover:text-[#AEDFF7]">Kontak</a></li>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="analisis.html">Analisis</a></li>
+        <li><a href="projects.html">Proyek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="flex-grow flex items-center justify-center">
-    <div class="max-w-4xl mx-auto px-6 py-12 space-y-8">
+  <main class="flex-grow flex-center">
+    <div class="projects-container">
 
-      <h2 class="text-3xl font-bold text-center text-[#AEDFF7] mb-8">Proyek Saya</h2>
+      <h2 class="projects-title">Proyek Saya</h2>
 
-      <div class="space-y-6">
+      <div class="project-list">
 
-        <div class="bg-[#2C3E50] p-6 rounded-xl shadow-md text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-2xl">
-          <h3 class="text-xl font-semibold text-[#AEDFF7]">Sistem Informasi Perpustakaan</h3>
-          <p class="text-gray-200 mt-2">
+        <div class="panel project-panel">
+          <h3 class="project-title">Sistem Informasi Perpustakaan</h3>
+          <p class="project-description">
             Aplikasi berbasis web untuk mengelola data buku, anggota, serta peminjaman dan pengembalian. 
             Dibangun menggunakan PHP dan MySQL, dengan antarmuka yang mudah digunakan untuk admin maupun pengguna.
           </p>
         </div>
 
-        <div class="bg-[#2C3E50] p-6 rounded-xl shadow-md text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-2xl">
-          <h3 class="text-xl font-semibold text-[#AEDFF7]">Aplikasi Pemesanan Tiket Konser Online</h3>
-          <p class="text-gray-200 mt-2">
+        <div class="panel project-panel">
+          <h3 class="project-title">Aplikasi Pemesanan Tiket Konser Online</h3>
+          <p class="project-description">
             Platform pemesanan tiket konser berbasis web yang mendukung pemilihan kursi, 
             pembayaran online, serta notifikasi email. 
             Dibuat sebagai bagian dari tugas besar mata kuliah Rekayasa Perangkat Lunak.
           </p>
         </div>
 
-        <div class="bg-[#2C3E50] p-6 rounded-xl shadow-md text-justify transition transform hover:-translate-y-2 hover:bg-[#34495E] hover:shadow-2xl">
-          <h3 class="text-xl font-semibold text-[#AEDFF7]">Implementasi IoT untuk Monitoring Suhu & Kelembaban</h3>
-          <p class="text-gray-200 mt-2">
+        <div class="panel project-panel">
+          <h3 class="project-title">Implementasi IoT untuk Monitoring Suhu & Kelembaban</h3>
+          <p class="project-description">
             Proyek IoT menggunakan sensor DHT22 dan ESP8266 untuk mengukur suhu dan kelembaban 
             secara real-time, dengan data ditampilkan melalui dashboard berbasis web menggunakan Node-RED.
           </p>
@@ -56,7 +56,7 @@
     </div>
   </main>
 
-  <footer class="bg-[#2C3E50] text-[#F0F4F8] text-xs text-center py-2">
+  <footer class="footer">
     &copy; 2025 Arza Restu Arjuna • Universitas Lampung
   </footer>
 </body>
